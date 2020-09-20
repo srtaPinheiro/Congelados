@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    background-color: #7F0E0D;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+#tela{
+    width: 1024px;
+    height: 1240px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tela > p{
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+#mensagem > p{
+    font-size: 50px;
+    margin-left: 110px;
+    margin-top: -400px;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}

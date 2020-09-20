@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    background-color: #7F0E0D;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+#barra{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin-top: -110px;
+    background-color: #7F0E0D;
+}
+
+#logo{
+    height: 100%;
+    width: 100px;
+}
+
+#logo >a > img{
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#links{
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+#links > a{
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#links > a:hover{
+    background-color: white;
+    color: #7F0E0D;
+}
+
+#pesquisa{
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    margin-left: 80vw;
+    display: flex;
+}
+
+#pesquisa > form{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border-radius: 45px;
+    width: 240px;
+}
+
+.campo{
+    height: 36px;
+    width: 198px;
+    background-color: transparent;
+    border-style: none;
+    margin-left: 5px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+
+.botao{
+    background-color: #7F0E0D;
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    margin-top: 4px;
+    position: absolute;
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+}
+
+#social{
+    position: absolute;
+    width: 50px;
+    height: 150px;
+    margin-left: 90.5vw;
+    margin-top: 200px;
+}
+
+#social > a > img{
+    width: 40px;
+    height: 40px;
+}
+
+#tela{
+    width: 1024px;
+    height: 1240px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tela > p{
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+#mensagem > p{
+    font-size: 50px;
+    margin-left: 110px;
+    margin-top: -400px;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+#imagens{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-top: -120px;
+    width: 1000px;
+}
+
+#imagens > img{
+    margin: 12px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: white;
+    width: 280px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
